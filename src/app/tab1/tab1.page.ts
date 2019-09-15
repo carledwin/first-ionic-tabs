@@ -7,6 +7,14 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
-  constructor() {}
+  nome: string;
+  idade: number;
+
+  constructor() {
+
+    this.nome = 'Carl Edwin';
+    this.idade = 36;
+
+  }
 
 }
